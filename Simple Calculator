@@ -1,0 +1,27 @@
+#This is the code to build your first own Calculator.
+#This calculator will first take input from users and will then perform either Addtion, Subtraction, Multiplication or Division.
+
+
+print("Simple Calculator") 
+a= int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+choice = input('Enter your choice(1,2,3,4)\n1.This will Add +\n2.This will Subtract -\n3.This will Multiply * \n4.This will Divide / \n')
+if choice == '1':
+    print('Your Result is:-')
+    print(a + b)
+    
+    
+elif choice == '2':
+    print('Your Result is:-')
+    print(a-b)
+    
+elif choice == '3':
+    print('Your Result is:-')
+    print(a*b)
+    
+elif choice == '4':
+    print('Your Result is:-')
+    print(a/b)
+    
+else:
+    print ('Invalid Choice')
