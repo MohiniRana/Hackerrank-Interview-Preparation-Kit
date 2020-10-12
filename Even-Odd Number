@@ -1,0 +1,22 @@
+# Program to check if the number entered by user is either even or odd.
+# For a number to be even, it has to be divisible by 2.
+# Divisibility of 2 states that for a number to be divisible by 2, the remainder should be zero.
+# In Python, we can do this by using the % (mod) operator and check if number%2 is equal to zero.
+# If it is zero, the number is an even number, else it is an odd number.
+
+# Code:
+
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+    print(num, " is an even number")
+else:
+    print(num, " is an odd number")
+    
+    
+    
+ # Another method to print the same output-
+ num = int(input("Enter a number: "))
+if (num % 2) == 0:
+    print("{} is an even number".format(num))
+else:
+    print("{} is an odd number".format(num))
