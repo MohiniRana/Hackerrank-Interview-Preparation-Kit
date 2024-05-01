@@ -5,6 +5,5 @@ I have created this folder especially for Beginners who want to learn to start c
 To practice the codes, I highly recommend using Jupyter Notebooks as it is very user-friendly and simple to use and write scripts.
 
 
-Best, /n
-Your friendly coder,
+Best,
 Mohini Rana
